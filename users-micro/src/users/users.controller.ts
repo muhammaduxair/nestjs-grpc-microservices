@@ -23,6 +23,7 @@ export class UsersController {
 
   @GrpcMethod('UsersMicroservice', 'GetAll')
   getAll(metadata: any): { users: IUser[] } {
+    console.log('Running');
     return { users: this.usersList };
   }
 

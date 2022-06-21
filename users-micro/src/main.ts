@@ -10,7 +10,7 @@ const microservicesOptions: MicroserviceOptions = {
   options: {
     package: 'users',
     protoPath: join(__dirname, '../src/proto/users.proto'),
-    url: 'localhost:5001',
+    url: 'localhost:6001',
   },
 };
 

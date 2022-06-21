@@ -1,5 +1,6 @@
 import { Controller, Get, Param } from '@nestjs/common';
 import { Client, ClientGrpc, Transport } from '@nestjs/microservices';
+import { json } from 'stream/consumers';
 import { usersMicroserviceOptions } from '../config';
 import { IUser, IUsers, UsersMicroservice } from './users.interface';
 
